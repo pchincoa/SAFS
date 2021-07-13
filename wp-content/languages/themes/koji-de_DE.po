@@ -1,0 +1,469 @@
+# Translation of Themes - Koji in German
+# This file is distributed under the same license as the Themes - Koji package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-20 19:30:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Koji\n"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: content.php:73
+msgid "Next post:"
+msgstr "Nächster Beitrag:"
+
+#: content.php:61
+msgid "Previous post:"
+msgstr "Vorheriger Beitrag:"
+
+#: functions.php:427
+msgid "Fallback image"
+msgstr "Standard-Bild"
+
+#: functions.php:713
+msgid "Post author"
+msgstr "Beitrags-Autor"
+
+#: header.php:33
+msgid "Skip to the content"
+msgstr "Zum Inhalt springen"
+
+#: header.php:34
+msgid "Skip to the main menu"
+msgstr "Zum Hauptmenü springen"
+
+#: header.php:118 header.php:197
+msgid "Toggle the search field"
+msgstr "Suchfeld umschalten"
+
+#: header.php:226
+msgid "Hide the search overlay"
+msgstr "Such-Overlay verbergen"
+
+#: functions.php:255
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: functions.php:257
+msgid "Widgets in this area will be shown below the main menu."
+msgstr "Die Widgets in dieser Seitenleiste werden unterhalb des Hauptmenüs dargestellt."
+
+#: functions.php:285
+msgid "Footer #3"
+msgstr "Footer #3"
+
+#: functions.php:275
+msgid "Footer #2"
+msgstr "Footer #2"
+
+#: functions.php:265
+msgid "Footer #1"
+msgstr "Footer #1"
+
+#: functions.php:287
+msgid "Widgets in this area will be shown in the third footer column."
+msgstr "Widgets in diesem Bereich erscheinen in der dritten Footer-Spalte."
+
+#: functions.php:277
+msgid "Widgets in this area will be shown in the second footer column."
+msgstr "Widgets in diesem Bereich erscheinen in der zweiten Footer-Spalte."
+
+#: functions.php:267
+msgid "Widgets in this area will be shown in the first footer column."
+msgstr "Widgets in diesem Bereich erscheinen in der ersten Footer-Spalte."
+
+#: inc/classes/class-koji-customize.php:209
+msgid "Disable Related Posts"
+msgstr "Ähnliche Beiträge deaktivieren"
+
+#: inc/classes/class-koji-customize.php:33
+msgid "Images"
+msgstr "Bilder"
+
+#: inc/classes/class-koji-customize.php:36
+msgid "Settings for images in Koji."
+msgstr "Bilder-Einstellungen für Koji"
+
+#: inc/classes/class-koji-customize.php:77
+msgid "Disable Fallback Image"
+msgstr "Platzhalter-Bilder deaktivieren"
+
+#: inc/classes/class-koji-customize.php:50
+msgid "Checking this will decrease load times, but also make images look less sharp on high-resolution screens."
+msgstr "Diese Option verringert die Ladezeiten, allerdings werden die Bilder dadurch auf hochauflösenden Bildschirmen weniger scharf dargestellt."
+
+#: inc/classes/class-koji-customize.php:49
+msgid "Use Low-Resolution Images"
+msgstr "Bilder mit niedriger Auflösung verwenden"
+
+#: inc/classes/class-koji-customize.php:210
+msgid "Check to hide the related posts section on single posts."
+msgstr "Auswählen, um den Abschnitt „ähnliche Beiträge“ in Einzelbeiträgen auszublenden. "
+
+#: inc/classes/class-koji-customize.php:183
+msgid "Disable Search Toggle"
+msgstr "Suchfeld deaktivieren"
+
+#: searchform.php:9
+msgctxt "Submit button"
+msgid "Search"
+msgstr "Suchen"
+
+#: searchform.php:5
+msgctxt "Label"
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: header.php:56
+msgid "Menu"
+msgstr "Menü"
+
+#: functions.php:848
+msgctxt "Short name of the larger font size in the Gutenberg editor."
+msgid "XL"
+msgstr "XL"
+
+#: header.php:57
+msgid "Close"
+msgstr "Schließen"
+
+#: inc/classes/class-koji-customize.php:96 functions.php:588
+msgid "Comments"
+msgstr "Kommentare"
+
+#: functions.php:613 functions.php:620
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: functions.php:45
+msgid "Social Menu"
+msgstr "Social-Media-Menü"
+
+#: functions.php:43
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: 404.php:9
+msgid "Error 404"
+msgstr "Fehler 404"
+
+#. Author of the theme
+#. Translators: $s = name of the theme developer
+#: footer.php:30
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#: functions.php:804
+msgctxt "Name of the gray color in the Gutenberg palette"
+msgid "Gray"
+msgstr "Grau"
+
+#: functions.php:789
+msgctxt "Name of the black color in the Gutenberg palette"
+msgid "Black"
+msgstr "Schwarz"
+
+#: inc/classes/class-koji-customize.php:100
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: inc/classes/class-koji-customize.php:95
+msgid "Categories"
+msgstr "Kategorien"
+
+#: functions.php:322
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerien"
+
+#: functions.php:326
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videos"
+
+#: functions.php:324
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Bilder"
+
+#. Translators: $s = name of the theme developer
+#: footer.php:30
+msgctxt "Translators: $s = name of the theme developer"
+msgid "Theme by %s"
+msgstr "Theme von %s"
+
+#. Translators: %s = the number of comments
+#: comments.php:12
+msgctxt "Translators: %s = the number of comments"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Kommentar"
+msgstr[1] "%s Kommentare"
+
+#: related-posts.php:63 inc/classes/class-koji-customize.php:192
+msgid "Related Posts"
+msgstr "Ähnliche Beiträge"
+
+#: pagination.php:67
+msgid "Next Page &rarr;"
+msgstr "Nächste Seite &rarr;"
+
+#: pagination.php:63
+msgid "&larr; Previous Page"
+msgstr "&larr; Vorherige Seite"
+
+#: pagination.php:37
+msgid "Load more"
+msgstr "Mehr laden"
+
+#: functions.php:847
+msgctxt "Name of the larger font size in Gutenberg"
+msgid "Larger"
+msgstr "Größer"
+
+#: functions.php:842
+msgctxt "Short name of the large font size in the Gutenberg editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:841
+msgctxt "Name of the large font size in Gutenberg"
+msgid "Large"
+msgstr "Groß"
+
+#: functions.php:830
+msgctxt "Short name of the small font size in the Gutenberg editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:829
+msgctxt "Name of the small font size in Gutenberg"
+msgid "Small"
+msgstr "Klein"
+
+#: functions.php:819
+msgctxt "Name of the white color in the Gutenberg palette"
+msgid "White"
+msgstr "Weiß"
+
+#: functions.php:809
+msgctxt "Name of the light gray color in the Gutenberg palette"
+msgid "Light gray"
+msgstr "Hellgrau"
+
+#: functions.php:799
+msgctxt "Name of the darker gray color in the Gutenberg palette"
+msgid "Darker Gray"
+msgstr "Dunkelgrau"
+
+#: inc/classes/class-koji-customize.php:166
+msgid "Search"
+msgstr "Suche"
+
+#: inc/classes/class-koji-customize.php:156
+msgid "Load more on scroll"
+msgstr "Mehr laden durch Scrollen"
+
+#: inc/classes/class-koji-customize.php:155
+msgid "Load more on button click"
+msgstr "Mehr laden durch Button-Klick"
+
+#: inc/classes/class-koji-customize.php:153
+msgid "Pagination Type:"
+msgstr "Art der Seitennummerierung:"
+
+#: inc/classes/class-koji-customize.php:139
+msgid "Choose which type of pagination to display."
+msgstr "Wähle die Art der gewünschten Seitennummerierung."
+
+#: inc/classes/class-koji-customize.php:136
+msgid "Pagination"
+msgstr "Seitennummerierung"
+
+#: inc/classes/class-koji-customize.php:127
+msgid "Select the post meta values to show in previews."
+msgstr "Wähle, welche Metadaten in der Vorschau angezeigt werden sollen."
+
+#: inc/classes/class-koji-customize.php:126
+msgid "Post Meta In Previews:"
+msgstr "Metadaten in der Vorschau:"
+
+#: inc/classes/class-koji-customize.php:112
+msgid "Post Meta On Single:"
+msgstr "Metadaten in Einzelbeiträgen:"
+
+#: inc/classes/class-koji-customize.php:97
+msgid "Edit link (for logged in users)"
+msgstr "Bearbeiten-Link (für angemeldete Benutzer)"
+
+#: inc/classes/class-koji-customize.php:88
+msgid "Choose which meta information to display in Koji."
+msgstr "Wähle, welche Metadaten von Koji angezeigt werden sollen."
+
+#: inc/classes/class-koji-customize.php:85
+msgid "Post Meta"
+msgstr "Meta"
+
+#: inc/classes/class-koji-customize.php:24
+msgid "Retina logo"
+msgstr "Retina-Logo"
+
+#: functions.php:362
+msgid "Category"
+msgstr "Kategorie"
+
+#: functions.php:336
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chats"
+
+#: functions.php:334
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: functions.php:330
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Links"
+
+#: functions.php:328
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Zitate"
+
+#: 404.php:13
+msgid "To the home page"
+msgstr "Zur Startseite"
+
+#: functions.php:372
+msgid "Day"
+msgstr "Tag"
+
+#: functions.php:370
+msgid "Month"
+msgstr "Monat"
+
+#: functions.php:368
+msgid "Year"
+msgstr "Jahr"
+
+#: inc/classes/class-koji-customize.php:94 functions.php:366
+msgid "Author"
+msgstr "Autor"
+
+#: functions.php:364
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: functions.php:332
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Status"
+
+#: functions.php:320
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Kurzmitteilungen"
+
+#: comments.php:22
+msgid "Add Yours &rarr;"
+msgstr "Kommentieren &rarr;"
+
+#: inc/classes/class-koji-customize.php:157
+msgid "Previous and next page links"
+msgstr "Links zur vorherigen und nächsten Seite"
+
+#: functions.php:578
+msgid "Tagged with"
+msgstr "Schlagwörter"
+
+#: functions.php:568
+msgid "Posted in"
+msgstr "Veröffentlicht in"
+
+#: functions.php:555
+msgid "Posted by"
+msgstr "Geschrieben von"
+
+#: inc/classes/class-koji-customize.php:98 functions.php:545
+msgid "Post date"
+msgstr "Beitragsdatum"
+
+#: functions.php:377
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: functions.php:345 functions.php:379
+msgid "Archives"
+msgstr "Archive"
+
+#: pagination.php:39
+msgid "Nothing more to load."
+msgstr "Keine weiteren Inhalte verfügbar."
+
+#. Translators: %s = the number of results
+#: index.php:30
+msgctxt "%s = number of results"
+msgid "Found %s result matching your search."
+msgid_plural "Found %s results matching your search."
+msgstr[0] "Deine Suche hat %s Treffer erzielt."
+msgstr[1] "Deine Suche hat %s Treffer erzielt."
+
+#: inc/classes/class-koji-customize.php:99
+msgid "Sticky status"
+msgstr "Oben gehalten"
+
+#: inc/classes/class-koji-customize.php:60
+msgid "Fallback Image"
+msgstr "Standard-Bild"
+
+#: functions.php:600
+msgid "Sticky post"
+msgstr "Beitrag oben halten"
+
+#: inc/classes/class-koji-customize.php:61
+msgid "The selected image will be used when a post is missing a featured image. A default fallback image included in the theme will be used if no image is set."
+msgstr "Das ausgewählte Bild wird benutzt, wenn ein Beitrag kein Beitragsbild hat. Falls du kein Bild auswählst, wird ein Standard-Bild benutzt, das im Theme enthalten ist."
+
+#: inc/classes/class-koji-customize.php:25
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Skaliert das Logo auf die Hälfte der hochgeladenen Größe. Dadurch wird es auf hochauflösenden Bildschirme scharf dargestellt."
+
+#: inc/classes/class-koji-customize.php:184
+msgid "Check to remove the search toggle from the row of icons."
+msgstr "Auswählen, um die Suche aus der Reihe von Icons zu entfernen."
+
+#: functions.php:814
+msgctxt "Name of the lightest gray color in the Gutenberg palette"
+msgid "Lightest gray"
+msgstr "Lichtgrau"
+
+#: functions.php:794
+msgctxt "Name of the darkest gray color in the Gutenberg palette"
+msgid "Darkest gray"
+msgstr "Anthrazit"
+
+#: functions.php:44
+msgid "Mobile Menu"
+msgstr "Mobile-Menü"
+
+#: searchform.php:8
+msgctxt "Placeholder"
+msgid "Enter your search query"
+msgstr "Gib einen Suchbegriff ein"
+
+#: 404.php:11
+msgid "The page you're looking for could not be found. It may have been removed, renamed, or maybe it didn't exist in the first place. You can return to the home page through the link."
+msgstr "Die gesuchte Seite konnte nicht gefunden werden. Sie wurde vielleicht entfernt, umbenannt oder hat gar nicht erst existiert. Du kannst über den Link zur Startseite zurückkehren."
+
+#: inc/classes/class-koji-customize.php:113
+msgid "Select the post meta values to show on single posts."
+msgstr "Wähle, welche Metadaten in Einzelbeiträgen angezeigt werden sollen."

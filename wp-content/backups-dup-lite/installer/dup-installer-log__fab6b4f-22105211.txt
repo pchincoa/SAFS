@@ -1,0 +1,397 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:03:19
+* VERSION: 1.3.40.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.27-7+0~20210220.80+debian9~1.gbpccb1ab|7.4.2
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2021-02-22 10:52:11
+WP VERSION__________: 5.6.1
+DUP VERSION_________: 1.3.40.1
+DB__________________: 10.1.48
+DB TABLES___________: 13
+DB ROWS_____________: 1,205
+DB FILE SIZE________: 3.36MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.2 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
+DOC ROOT____________: "/Applications/MAMP/htdocs/htdocs/spanischals22"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/htdocs/spanischals22/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "manual"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Applications/MAMP/htdocs/htdocs/spanischals22/3_spanischalsfremdsprache_[HASH]_20210222105211_archive.zip"
+
+
+PRE-EXTRACT-CHECKS
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 11:03:19 - RUNTIME: 0.4789 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:05:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 10.1.48
+FILE SIZE:	dup-database__[HASH].sql (1.3MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/htdocs/spanischals22/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.26] is less than the build version [10.1.48].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1314
+
+ch_commentmeta: (0)
+ch_comments: (1)
+ch_duplicator_packages: (0)
+ch_links: (0)
+ch_options: (250)
+ch_postmeta: (457)
+ch_posts: (355)
+ch_term_relationships: (73)
+ch_term_taxonomy: (34)
+ch_termmeta: (8)
+ch_terms: (34)
+ch_usermeta: (49)
+ch_users: (2)
+Removed '35' cache/transient rows
+
+INSERT DATA RUNTIME: 1.8240 sec.
+STEP-2 COMPLETE @ 11:05:18 - RUNTIME: 1.8688 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+htaccess ark file don' exists
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:05:28
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Spanisch als Fremdsprache"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/clients/client9/web31/web"
+path_new______________: "/Applications/MAMP/htdocs/htdocs/spanischals22"
+siteurl_______________: "http://localhost:8888/htdocs/spanischals22"
+url_old_______________: "http://user03.wpstore.cimlive.de"
+url_new_______________: "http://localhost:8888/htdocs/spanischals22"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "ch_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ch_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+
+EVALUATE TABLE: "ch_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ch_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ch_options"______________________________________[ROWS:   250][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+
+EVALUATE TABLE: "ch_postmeta"_____________________________________[ROWS:   457][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+
+EVALUATE TABLE: "ch_posts"________________________________________[ROWS:   355][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+
+EVALUATE TABLE: "ch_term_relationships"___________________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+
+EVALUATE TABLE: "ch_term_taxonomy"________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+
+EVALUATE TABLE: "ch_termmeta"_____________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+
+EVALUATE TABLE: "ch_terms"________________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+
+EVALUATE TABLE: "ch_usermeta"_____________________________________[ROWS:    49][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+
+EVALUATE TABLE: "ch_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/clients/client9/web31/web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  2:"\/var\/www\/clients\/client9\/web31\/web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  3:"%2Fvar%2Fwww%2Fclients%2Fclient9%2Fweb31%2Fweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  4:"\var\www\clients\client9\web31\web" ==============> "/Applications/MAMP/htdocs/htdocs/spanischals22"
+	SEARCH  5:"\\var\\www\\clients\\client9\\web31\\web" ========> "\/Applications\/MAMP\/htdocs\/htdocs\/spanischals22"
+	SEARCH  6:"%5Cvar%5Cwww%5Cclients%5Cclient9%5Cweb31%5Cweb" ==> "%2FApplications%2FMAMP%2Fhtdocs%2Fhtdocs%2Fspanischals22"
+	SEARCH  7:"//user03.wpstore.cimlive.de" =====================> "//localhost:8888/htdocs/spanischals22"
+	SEARCH  8:"\/\/user03.wpstore.cimlive.de" ===================> "\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH  9:"%2F%2Fuser03.wpstore.cimlive.de" =================> "%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+	SEARCH 10:"https://localhost:8888/htdocs/spanischals22" =====> "http://localhost:8888/htdocs/spanischals22"
+	SEARCH 11:"https:\/\/localhost:8888\/htdocs\/spanischals22" => "http:\/\/localhost:8888\/htdocs\/spanischals22"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22" => "http%3A%2F%2Flocalhost%3A8888%2Fhtdocs%2Fspanischals22"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:1263 	|	 Cells:11815 
+UPDATED:	Tables:4 	|	 Rows:365 	|	 Cells:424 
+ERRORS:		0 
+RUNTIME:	0.211500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""spanisch22""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost:8888""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+[PHP ERR][WARN] MSG:file_get_contents(/Applications/MAMP/htdocs/htdocs/spanischals22/dup-installer/dup-orig-htaccess__[HASH].txt): failed to open stream: No such file or directory [CODE:2|FILE:/Applications/MAMP/htdocs/htdocs/spanischals22/dup-installer/classes/class.s3.func.php|LINE:1222]
+
+STEP-3 COMPLETE @ 11:05:28 - RUNTIME: 0.3046 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
